@@ -347,12 +347,9 @@ mkzip() {
 	fi
 	if [[ ${TGI} == "1" ]]; then
 		tgs "${zipn}.zip" "*#${kver} ${KBUILD_COMPILER_STRING}*"
-		if [[ ${MODULE} == "1" ]]; then
-			cd ../modules || exit 1
-			tgs "${modn}.zip" "*#${kver} ${KBUILD_COMPILER_STRING}*"
-		fi
 		tg "
 *Build*: https://github.com/NetErnels/devices/releases/download/$VERSION/$zipn.zip
+*Modules*: https://github.com/NetErnels/devices/releases/download/$VERSION/$modn.zip
 *Changelog*: https://github.com/NetErnels/devices/blob/master/sunny/changelog\_${re}.md
 *OTA*: https://raw.githubusercontent.com/NetErnels/devices/master/sunny/NetErnels-${re}.json
 "
