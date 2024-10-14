@@ -80,13 +80,13 @@ fi
 
 if [[ ${COMPILER} == gcc ]]; then
 	if [ ! -d "${KDIR}/gcc64" ]; then
-		curl -sL https://github.com/mvaisakh/gcc-arm64/archive/refs/heads/gcc-master.tar.gz | tar -xzf -
-		mv "${KDIR}"/gcc-arm64-gcc-master "${KDIR}"/gcc64
+		curl -sL https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf/archive/refs/heads/14.0.0.tar.gz | tar -xzf -
+		mv "${KDIR}"/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf-14.0.0 "${KDIR}"/gcc64
 	fi
 
 	if [ ! -d "${KDIR}/gcc32" ]; then
-		curl -sL https://github.com/mvaisakh/gcc-arm/archive/refs/heads/gcc-master.tar.gz | tar -xzf -
-		mv "${KDIR}"/gcc-arm-gcc-master "${KDIR}"/gcc32
+		curl -sL https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_arm_arm-eabi/archive/refs/heads/12.0.0.tar.gz | tar -xzf -
+		mv "${KDIR}"/android_prebuilts_gcc_linux-x86_arm_arm-eabi-12.0.0 "${KDIR}"/gcc32
 	fi
 
 	KBUILD_COMPILER_STRING=$("${KDIR}"/gcc64/bin/aarch64-elf-gcc --version | head -n 1)
