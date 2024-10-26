@@ -85,7 +85,7 @@ if [[ ${COMPILER} == gcc ]]; then
 	fi
 
 	if [ ! -d "${KDIR}/gcc32" ]; then
-		curl -sL https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_arm_arm-eabi/archive/refs/heads/12.0.0.tar.gz | tar -xzf -
+		curl -sL https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi/archive/refs/heads/12.0.0.tar.gz | tar -xzf -
 		mv "${KDIR}"/android_prebuilts_gcc_linux-x86_arm_arm-eabi-12.0.0 "${KDIR}"/gcc32
 	fi
 
