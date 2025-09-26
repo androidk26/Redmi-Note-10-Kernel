@@ -128,7 +128,7 @@ static time_t accum_days_in_year[] = {
 
 TIMESTAMP_T *tm_current(TIMESTAMP_T *tp)
 {
-	struct timespec ts;
+	struct timespec64 ts;
 	time_t second, day, leap_day, month, year;
 
 #if LINUX_VERSION_CODE < KERNEL_VERSION(4,8,0)
