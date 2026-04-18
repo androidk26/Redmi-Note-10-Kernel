@@ -54,7 +54,7 @@ List of known ROMS for Redmi Note 10 (sunny/mojito)
 > Your device bootloader must be unlocked before proceeding.
 
 - **Download latest 👉 [Release](../../releases/latest) 👈**
-- **Visit repository [Wiki](../../wiki) for detailed guide**
+- **Visit repository [Wiki](../../wiki) for detailed guide on building the kernel and installation**
 
 ---
 
