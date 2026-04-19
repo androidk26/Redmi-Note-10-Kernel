@@ -54,7 +54,7 @@ else
 fi
 
 # Telegram Information. Set 1 to enable. | Set 0 to disable.
-export TGI=1
+export TGI=0
 
 # Number of jobs to run.
 PROCS=$(nproc --all)
