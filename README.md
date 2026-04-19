@@ -28,23 +28,6 @@
 
 ✅ **[SuSFS](https://gitlab.com/simonpunk/susfs4ksu) integration**
 
----
-
-## ✅ Kernel Compatibility
-List of known ROMS for Redmi Note 10 (sunny/mojito)
-|         ROM                 |    Support             |
-|-----------------------------|------------------------|
-| MIUI V14.0.9.0.SKGMIXM      |       ✅               |
-| Pixel OS                    |       ✅               |
-| Yet Another AOSP Project    |       ✅               |
-| Project Infinity X          |        NOT TESTED      |
-| Lunaris AOS                 |        NOT TESTED      |
-| Axion AOSP                  |        NOT TESTED      |
-| Lineage OS                  |        NOT TESTED      |
-| Paranoid Android            |        NOT TESTED      |
-| Rising OS                   |        NOT TESTED      |
-| Bliss ROM                   |        NOT TESTED      |
-| Voltage OS                  |        NOT TESTED      |
 
 ---
 
@@ -54,6 +37,24 @@ List of known ROMS for Redmi Note 10 (sunny/mojito)
 
 - **Download latest 👉 [Release](../../releases/latest) 👈**
 - **Visit repository [Wiki](../../wiki) for detailed guide on building the kernel and installation**
+
+---
+## 🔗 Additional links
+> 🤖 **Root Manager**:
+> 
+> ➡️ ![](https://img.shields.io/github/v/release/KernelSU-Next/KernelSU-Next?logo=github&label=Release) [KernelSU-Next manager](https://github.com/KernelSU-Next/KernelSU-Next/releases/latest)
+
+
+
+
+> 📦 **SuSFS Modules**:
+> 
+> _NOTE: Choose only one from the following susfs modules:_
+>
+> 
+> ➡️ ![](https://img.shields.io/github/v/release/sidex15/susfs4ksu-module?logo=github&label=Release) [susfs4ksu by sidex15](https://github.com/sidex15/susfs4ksu-module/releases/latest)
+> 
+> ➡️ ![](https://img.shields.io/github/v/release/rrr333nnn333/BRENE?logo=github&label=Release) [BRENE by rrr333nnn333](https://github.com/rrr333nnn333/BRENE/releases/latest)
 
 ---
 
