@@ -24,9 +24,9 @@
 ---
 
 ## 🚀 Features
+✅ **[KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) integration**
 
-- KernelSU-Next integration
-- SuSFS integration
+✅ **[SuSFS](https://gitlab.com/simonpunk/susfs4ksu) integration**
 
 ---
 
@@ -60,4 +60,5 @@ List of known ROMS for Redmi Note 10 (sunny/mojito)
 ## 🙏 Credits
 - [NetErnels](https://github.com/Neternels) | [cyberknight777](https://github.com/cyberknight777) - [NetErnels Sunny Kernel Tree](https://github.com/Neternels/android_kernel_xiaomi_sunny)
 - [KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) - Kernel-based root solution
+- [susfs4ksu](https://gitlab.com/simonpunk/susfs4ksu) - An addon root hiding kernel patches and userspace module for KernelSU and its revisions.
 - [sidex15](https://github.com/sidex15) - KernelSU-Next driver pattern | SuSFS manual hooks pattern
