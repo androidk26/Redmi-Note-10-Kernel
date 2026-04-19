@@ -25,9 +25,8 @@
 
 ## 🚀 Features
 
-- Kernel-based `su` and root access management.
-- Module system based on [Magic Mount](https://topjohnwu.github.io/Magisk/details.html#magic-mount) and [OverlayFS](https://en.wikipedia.org/wiki/OverlayFS).
-- [App Profile](https://kernelsu.org/guide/app-profile.html): Limit root privileges per app.
+- KernelSU-Next integration
+- SuSFS integration
 
 ---
 
